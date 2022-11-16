@@ -115,13 +115,17 @@ div.section-group {
     flex-direction: column;
 }
 
+#pricing h2 {
+    font-size: 1.17em
+}
+
 div.lessons {
     text-align: center;
     padding-bottom: 2rem;
 }
 
 div.lessons p {
-    color: #777777;
+    color: #424242;
 }
 
 div.our-cars {
@@ -193,6 +197,7 @@ button:hover {
     display: flex;
     flex-direction: row;
 }
+
 .inverse-variable-flex {
     display: flex;
     flex-direction: column;
@@ -201,6 +206,7 @@ button:hover {
 nav {
     justify-content: center;
 }
+
 nav a {
     margin: 0.25rem 1rem;
 }
@@ -214,16 +220,20 @@ section#contact .box {
     .variable-flex {
         flex-direction: column;
     }
+
     .variable-flex > div {
         width: 100%;
     }
+
     .inverse-variable-flex {
         display: flex;
         flex-direction: row;
     }
+
     .box {
         margin-top: 3rem;
     }
+
     .box, #about, #pricing {
         width: 100%;
     }
