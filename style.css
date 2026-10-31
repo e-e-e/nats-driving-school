@@ -244,3 +244,14 @@ section#contact .box {
         font-size: 14px;
     }
 }
+
+footer {
+    text-align: center;
+    background-color: #F2EA51;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
+
+footer p {
+    margin: 0;
+}
